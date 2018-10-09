@@ -7,6 +7,8 @@ class SimpleForm extends React.Component {
   public render() {
     return (
         <ChatBot
+          floating={true}
+          recognitionEnable={true}
           steps={[
             {
               id: '1',

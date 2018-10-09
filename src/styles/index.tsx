@@ -7,7 +7,7 @@ const colors = {
 }
 
 const font = {
-  family: 'Gill Sans, Helvetica, sans-serig',
+  family: "'Roboto Condensed', sans-serif",
   size: {
     header: '4.8rem',
     headerMobile: '3.6rem',
