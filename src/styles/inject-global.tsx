@@ -21,15 +21,14 @@ injectGlobal`
     line-height: 1.2;
     min-width: 320px;
   }
-  a {
-    color: ${styles.colors.text};
-    font-weight: ${styles.font.weight.semiBold}
-  }
   #root {
     height: 100%;
   }
   strong {
     font-weight: 600;
   }
+  a svg:not([fill]) {
+    fill: white;
+ }
 `
 /* tslint:enable */ 
